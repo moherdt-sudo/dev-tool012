@@ -59,14 +59,16 @@ const tools = computed<ToolCategory[]>(() => [
         <CollapsibleToolMenu :tools-by-category="tools" />
 
         <div class="footer">
-          <div>
+          <div class="footer-links">
+            <RouterLink to="/about">À propos</RouterLink>
+            <span class="separator">•</span>
+            <RouterLink to="/privacy-policy">Confidentialité</RouterLink>
+          </div>
+          <div class="footer-info">
             Dev-Tool v{{ version }}
           </div>
-          <div>
-            © {{ new Date().getFullYear() }}
-            <c-link target="_blank" rel="noopener" href="#">
-              Mohamed Marouf
-            </c-link>
+          <div class="footer-copyright">
+            © {{ new Date().getFullYear() }} Dev-Tool
           </div>
         </div>
       </div>
@@ -114,6 +116,25 @@ const tools = computed<ToolCategory[]>(() => [
   color: #838587;
   margin-top: 20px;
   padding: 20px 0;
+  font-size: 13px;
+
+  .footer-links {
+    margin-bottom: 8px;
+    a {
+      color: #838587;
+      text-decoration: none;
+      &:hover {
+        color: v-bind('themeVars.primaryColor');
+      }
+    }
+    .separator {
+      margin: 0 8px;
+    }
+  }
+
+  .footer-info {
+    margin-bottom: 4px;
+  }
 }
 
 .sider-content {

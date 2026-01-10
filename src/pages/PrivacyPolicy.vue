@@ -8,7 +8,7 @@ useHead({ title: 'Politique de confidentialité - Dev-Tool' });
   <div class="mx-auto mt-50px max-w-800px px-20px pb-50px">
     <h1 class="text-3xl font-bold mb-6">Politique de confidentialité</h1>
     
-    <p class="mb-4 text-lg italic">Dernière mise à jour : 7 janvier 2026</p>
+    <p class="mb-4 text-lg italic">Dernière mise à jour : 10 janvier 2026</p>
 
     <section class="mb-8">
       <h2 class="text-2xl font-semibold mb-4">1. Introduction</h2>
@@ -44,7 +44,7 @@ useHead({ title: 'Politique de confidentialité - Dev-Tool' });
     <section class="mb-8">
       <h2 class="text-2xl font-semibold mb-4">4. Services Tiers</h2>
       <p class="mb-4">
-        Le site est hébergé par Vercel. Vercel peut collecter des journaux d'accès standards (adresse IP, type de navigateur) à des fins de sécurité et de diagnostic réseau, conformément à leur propre politique de confidentialité.
+        Le site est hébergé par <strong>Cloudflare Pages</strong>. Cloudflare peut collecter des journaux d'accès standards (adresse IP, type de navigateur) à des fins de sécurité et de diagnostic réseau, conformément à leur propre politique de confidentialité.
       </p>
     </section>
 

@@ -63,6 +63,10 @@ const tools = computed<ToolCategory[]>(() => [
             <RouterLink to="/about">À propos</RouterLink>
             <span class="separator">•</span>
             <RouterLink to="/privacy-policy">Confidentialité</RouterLink>
+            <span class="separator">•</span>
+            <RouterLink to="/terms-of-service">Conditions</RouterLink>
+            <span class="separator">•</span>
+            <RouterLink to="/contact">Contact</RouterLink>
           </div>
           <div class="footer-info">
             Dev-Tool v{{ version }}

@@ -36,6 +36,16 @@ const router = createRouter({
       name: 'privacy-policy',
       component: () => import('./pages/PrivacyPolicy.vue'),
     },
+    {
+      path: '/terms-of-service',
+      name: 'terms-of-service',
+      component: () => import('./pages/TermsOfService.vue'),
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: () => import('./pages/Contact.vue'),
+    },
     ...toolsRoutes,
     ...toolsRedirectRoutes,
     ...(config.app.env === 'development' ? demoRoutes : []),

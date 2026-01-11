@@ -1,457 +1,457 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://it-tools.tech/</loc>
+    <loc>https://devs-tools.xyz/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/about</loc>
+    <loc>https://devs-tools.xyz/about</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/ascii-text-drawer</loc>
+    <loc>https://devs-tools.xyz/ascii-text-drawer</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/base-converter</loc>
+    <loc>https://devs-tools.xyz/base-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/base64-file-converter</loc>
+    <loc>https://devs-tools.xyz/base64-file-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/base64-string-converter</loc>
+    <loc>https://devs-tools.xyz/base64-string-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/basic-auth-generator</loc>
+    <loc>https://devs-tools.xyz/basic-auth-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/bcrypt</loc>
+    <loc>https://devs-tools.xyz/bcrypt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/benchmark-builder</loc>
+    <loc>https://devs-tools.xyz/benchmark-builder</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/bip39-generator</loc>
+    <loc>https://devs-tools.xyz/bip39-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/camera-recorder</loc>
+    <loc>https://devs-tools.xyz/camera-recorder</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/case-converter</loc>
+    <loc>https://devs-tools.xyz/case-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/chmod-calculator</loc>
+    <loc>https://devs-tools.xyz/chmod-calculator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/chronometer</loc>
+    <loc>https://devs-tools.xyz/chronometer</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/color-converter</loc>
+    <loc>https://devs-tools.xyz/color-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/contact</loc>
+    <loc>https://devs-tools.xyz/contact</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/crontab-generator</loc>
+    <loc>https://devs-tools.xyz/crontab-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/date-converter</loc>
+    <loc>https://devs-tools.xyz/date-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/device-information</loc>
+    <loc>https://devs-tools.xyz/device-information</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/docker-run-to-docker-compose-converter</loc>
+    <loc>https://devs-tools.xyz/docker-run-to-docker-compose-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/email-normalizer</loc>
+    <loc>https://devs-tools.xyz/email-normalizer</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/emoji-picker</loc>
+    <loc>https://devs-tools.xyz/emoji-picker</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/encryption</loc>
+    <loc>https://devs-tools.xyz/encryption</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/eta-calculator</loc>
+    <loc>https://devs-tools.xyz/eta-calculator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/git-memo</loc>
+    <loc>https://devs-tools.xyz/git-memo</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/hash-text</loc>
+    <loc>https://devs-tools.xyz/hash-text</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/hmac-generator</loc>
+    <loc>https://devs-tools.xyz/hmac-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/html-entities</loc>
+    <loc>https://devs-tools.xyz/html-entities</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/html-wysiwyg-editor</loc>
+    <loc>https://devs-tools.xyz/html-wysiwyg-editor</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/http-status-codes</loc>
+    <loc>https://devs-tools.xyz/http-status-codes</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/iban-validator-and-parser</loc>
+    <loc>https://devs-tools.xyz/iban-validator-and-parser</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/ipv4-address-converter</loc>
+    <loc>https://devs-tools.xyz/ipv4-address-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/ipv4-range-expander</loc>
+    <loc>https://devs-tools.xyz/ipv4-range-expander</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/ipv4-subnet-calculator</loc>
+    <loc>https://devs-tools.xyz/ipv4-subnet-calculator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/ipv6-ula-generator</loc>
+    <loc>https://devs-tools.xyz/ipv6-ula-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/json-diff</loc>
+    <loc>https://devs-tools.xyz/json-diff</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/json-minify</loc>
+    <loc>https://devs-tools.xyz/json-minify</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/json-prettify</loc>
+    <loc>https://devs-tools.xyz/json-prettify</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/json-to-csv</loc>
+    <loc>https://devs-tools.xyz/json-to-csv</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/json-to-toml</loc>
+    <loc>https://devs-tools.xyz/json-to-toml</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/json-to-xml</loc>
+    <loc>https://devs-tools.xyz/json-to-xml</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/json-to-yaml-converter</loc>
+    <loc>https://devs-tools.xyz/json-to-yaml-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/jwt-parser</loc>
+    <loc>https://devs-tools.xyz/jwt-parser</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/keycode-info</loc>
+    <loc>https://devs-tools.xyz/keycode-info</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/list-converter</loc>
+    <loc>https://devs-tools.xyz/list-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/lorem-ipsum-generator</loc>
+    <loc>https://devs-tools.xyz/lorem-ipsum-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/mac-address-generator</loc>
+    <loc>https://devs-tools.xyz/mac-address-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/mac-address-lookup</loc>
+    <loc>https://devs-tools.xyz/mac-address-lookup</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/markdown-to-html</loc>
+    <loc>https://devs-tools.xyz/markdown-to-html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/math-evaluator</loc>
+    <loc>https://devs-tools.xyz/math-evaluator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/mime-types</loc>
+    <loc>https://devs-tools.xyz/mime-types</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/numeronym-generator</loc>
+    <loc>https://devs-tools.xyz/numeronym-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/og-meta-generator</loc>
+    <loc>https://devs-tools.xyz/og-meta-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/otp-generator</loc>
+    <loc>https://devs-tools.xyz/otp-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/password-strength-analyser</loc>
+    <loc>https://devs-tools.xyz/password-strength-analyser</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/pdf-signature-checker</loc>
+    <loc>https://devs-tools.xyz/pdf-signature-checker</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/percentage-calculator</loc>
+    <loc>https://devs-tools.xyz/percentage-calculator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/phone-parser-and-formatter</loc>
+    <loc>https://devs-tools.xyz/phone-parser-and-formatter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/privacy-policy</loc>
+    <loc>https://devs-tools.xyz/privacy-policy</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/qrcode-generator</loc>
+    <loc>https://devs-tools.xyz/qrcode-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/random-port-generator</loc>
+    <loc>https://devs-tools.xyz/random-port-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/regex-memo</loc>
+    <loc>https://devs-tools.xyz/regex-memo</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/regex-tester</loc>
+    <loc>https://devs-tools.xyz/regex-tester</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/roman-numeral-converter</loc>
+    <loc>https://devs-tools.xyz/roman-numeral-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/rsa-key-pair-generator</loc>
+    <loc>https://devs-tools.xyz/rsa-key-pair-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/safelink-decoder</loc>
+    <loc>https://devs-tools.xyz/safelink-decoder</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/slugify-string</loc>
+    <loc>https://devs-tools.xyz/slugify-string</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/sql-prettify</loc>
+    <loc>https://devs-tools.xyz/sql-prettify</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/string-obfuscator</loc>
+    <loc>https://devs-tools.xyz/string-obfuscator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/svg-placeholder-generator</loc>
+    <loc>https://devs-tools.xyz/svg-placeholder-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/temperature-converter</loc>
+    <loc>https://devs-tools.xyz/temperature-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/terms-of-service</loc>
+    <loc>https://devs-tools.xyz/terms-of-service</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/text-diff</loc>
+    <loc>https://devs-tools.xyz/text-diff</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/text-statistics</loc>
+    <loc>https://devs-tools.xyz/text-statistics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/text-to-binary</loc>
+    <loc>https://devs-tools.xyz/text-to-binary</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/text-to-nato-alphabet</loc>
+    <loc>https://devs-tools.xyz/text-to-nato-alphabet</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/text-to-unicode</loc>
+    <loc>https://devs-tools.xyz/text-to-unicode</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/token-generator</loc>
+    <loc>https://devs-tools.xyz/token-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/toml-to-json</loc>
+    <loc>https://devs-tools.xyz/toml-to-json</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/toml-to-yaml</loc>
+    <loc>https://devs-tools.xyz/toml-to-yaml</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/ulid-generator</loc>
+    <loc>https://devs-tools.xyz/ulid-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/url-encoder</loc>
+    <loc>https://devs-tools.xyz/url-encoder</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/url-parser</loc>
+    <loc>https://devs-tools.xyz/url-parser</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/user-agent-parser</loc>
+    <loc>https://devs-tools.xyz/user-agent-parser</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/uuid-generator</loc>
+    <loc>https://devs-tools.xyz/uuid-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/wifi-qrcode-generator</loc>
+    <loc>https://devs-tools.xyz/wifi-qrcode-generator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/xml-formatter</loc>
+    <loc>https://devs-tools.xyz/xml-formatter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/xml-to-json</loc>
+    <loc>https://devs-tools.xyz/xml-to-json</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/yaml-prettify</loc>
+    <loc>https://devs-tools.xyz/yaml-prettify</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/yaml-to-json-converter</loc>
+    <loc>https://devs-tools.xyz/yaml-to-json-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://it-tools.tech/yaml-to-toml</loc>
+    <loc>https://devs-tools.xyz/yaml-to-toml</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

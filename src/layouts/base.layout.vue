@@ -38,7 +38,7 @@ const tools = computed<ToolCategory[]>(() => [
         <HeroGradient class="gradient" />
         <div class="text-wrapper">
           <div class="title">
-            DEV - TOOL
+            DEVTOOLBOX
           </div>
           <div class="divider" />
           <div class="subtitle">
@@ -69,10 +69,10 @@ const tools = computed<ToolCategory[]>(() => [
             <RouterLink to="/contact">Contact</RouterLink>
           </div>
           <div class="footer-info">
-            Dev-Tool v{{ version }}
+            DevToolBox v{{ version }}
           </div>
           <div class="footer-copyright">
-            © {{ new Date().getFullYear() }} Dev-Tool
+            © {{ new Date().getFullYear() }} DevToolBox
           </div>
         </div>
       </div>

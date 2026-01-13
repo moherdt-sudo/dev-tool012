@@ -1,7 +1,12 @@
 <script setup lang="ts">
 import { useHead } from '@vueuse/head';
 
-useHead({ title: 'Contact - Dev-Tool' });
+useHead({ 
+  title: 'Contactez DevToolBox - Support et Suggestions',
+  meta: [
+    { name: 'description', content: 'Contactez l\'équipe de DevToolBox pour toute suggestion d\'outil, rapport de bug ou demande de partenariat.' }
+  ]
+});
 </script>
 
 <template>
@@ -28,6 +33,6 @@ useHead({ title: 'Contact - Dev-Tool' });
 
 <style scoped>
 .text-primary {
-  color: #18a058;
+  color: #2563eb;
 }
 </style>

@@ -1,15 +1,20 @@
 <script setup lang="ts">
 import { useHead } from '@vueuse/head';
 
-useHead({ title: 'À propos - Dev-Tool' });
+useHead({ 
+  title: 'À propos de DevToolBox - Votre Boîte à Outils Développeur',
+  meta: [
+    { name: 'description', content: 'Découvrez DevToolBox, la plateforme ultime regroupant des outils essentiels pour les développeurs : formateurs, convertisseurs et utilitaires réseau.' }
+  ]
+});
 </script>
 
 <template>
   <div class="mx-auto mt-50px max-w-600px px-20px">
-    <h1 class="text-3xl font-bold mb-6">À propos de Dev-Tool</h1>
+    <h1 class="text-3xl font-bold mb-6">À propos de DevToolBox</h1>
     
     <p class="mb-4">
-      <strong>Dev-Tool</strong> est une collection complète d'outils en ligne conçus pour simplifier le quotidien des développeurs et des professionnels de l'informatique.
+      <strong>DevToolBox</strong> est une suite d'outils web performants et gratuits, optimisée pour les développeurs modernes. Notre mission est de centraliser tous les utilitaires nécessaires au codage et à l'administration système.
     </p>
 
     <p class="mb-4">
@@ -29,7 +34,7 @@ useHead({ title: 'À propos - Dev-Tool' });
 
     <h2 class="text-2xl font-semibold mt-8 mb-4">Confidentialité</h2>
     <p class="mb-4">
-      Tous les outils de <strong>Dev-Tool</strong> fonctionnent côté client. Cela signifie que vos données ne sont jamais envoyées à un serveur. Tout le traitement est effectué directement dans votre navigateur, garantissant une confidentialité totale.
+      Tous les outils de <strong>DevToolBox</strong> sont conçus pour la sécurité. Cela signifie que vos données ne sont jamais envoyées à un serveur. Tout le traitement est effectué directement dans votre navigateur, garantissant une confidentialité totale.
     </p>
 
     <div class="mt-12 text-center text-neutral-500">
@@ -40,6 +45,6 @@ useHead({ title: 'À propos - Dev-Tool' });
 
 <style scoped>
 .text-primary {
-  color: v-bind('themeVars?.primaryColor || "#18a058"');
+  color: v-bind('themeVars?.primaryColor || "#2563eb"');
 }
 </style>

@@ -1,7 +1,12 @@
 <script setup lang="ts">
 import { useHead } from '@vueuse/head';
 
-useHead({ title: 'Politique de confidentialité - Dev-Tool' });
+useHead({ 
+  title: 'Politique de Confidentialité - DevToolBox',
+  meta: [
+    { name: 'description', content: 'Découvrez comment DevToolBox protège votre vie privée grâce au traitement des données exclusivement côté client.' }
+  ]
+});
 </script>
 
 <template>
@@ -13,14 +18,14 @@ useHead({ title: 'Politique de confidentialité - Dev-Tool' });
     <section class="mb-8">
       <h2 class="text-2xl font-semibold mb-4">1. Introduction</h2>
       <p class="mb-4">
-        Bienvenue sur <strong>Dev-Tool</strong>. Nous accordons une importance capitale à la protection de votre vie privée. Cette politique explique comment nous traitons vos données.
+        Bienvenue sur <strong>DevToolBox</strong>. Nous accordons une importance capitale à la protection de votre vie privée. Cette politique explique comment nous traitons vos données.
       </p>
     </section>
 
     <section class="mb-8">
       <h2 class="text-2xl font-semibold mb-4">2. Traitement des données (Côté Client)</h2>
       <p class="mb-4">
-        La caractéristique principale de <strong>Dev-Tool</strong> est que <strong>tout le traitement des données s'effectue localement dans votre navigateur</strong>. 
+        La caractéristique principale de <strong>DevToolBox</strong> est que <strong>tout le traitement des données s'effectue localement dans votre navigateur</strong>. 
       </p>
       <ul class="list-disc pl-6 mb-4 space-y-2">
         <li>Vos données (JSON, mots de passe, textes à chiffrer, etc.) ne sont jamais envoyées à nos serveurs.</li>
@@ -64,6 +69,6 @@ useHead({ title: 'Politique de confidentialité - Dev-Tool' });
 
 <style scoped>
 .text-primary {
-  color: #18a058;
+  color: #2563eb;
 }
 </style>

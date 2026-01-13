@@ -1,7 +1,12 @@
 <script setup lang="ts">
 import { useHead } from '@vueuse/head';
 
-useHead({ title: 'Conditions d\'utilisation - Dev-Tool' });
+useHead({ 
+  title: 'Conditions d\'Utilisation - DevToolBox',
+  meta: [
+    { name: 'description', content: 'Consultez les conditions d\'utilisation de DevToolBox, votre plateforme d\'outils de développement en ligne.' }
+  ]
+});
 </script>
 
 <template>
@@ -20,14 +25,14 @@ useHead({ title: 'Conditions d\'utilisation - Dev-Tool' });
     <section class="mb-8">
       <h2 class="text-2xl font-semibold mb-4">2. Utilisation des outils</h2>
       <p class="mb-4">
-        Les outils fournis sur <strong>Dev-Tool</strong> sont destinés à un usage professionnel et personnel. Bien que nous nous efforcions de fournir des outils précis, nous ne garantissons pas l'exactitude des résultats. L'utilisation des outils se fait à vos propres risques.
+        Les outils fournis sur <strong>DevToolBox</strong> sont destinés à un usage professionnel et personnel. Bien que nous nous efforcions de fournir des outils précis, nous ne garantissons pas l'exactitude des résultats. L'utilisation des outils se fait à vos propres risques.
       </p>
     </section>
 
     <section class="mb-8">
       <h2 class="text-2xl font-semibold mb-4">3. Responsabilité</h2>
       <p class="mb-4">
-        En aucun cas, <strong>Dev-Tool</strong> ou ses contributeurs ne pourront être tenus responsables de tout dommage (y compris, sans limitation, les dommages pour perte de données ou de profit) découlant de l'utilisation ou de l'impossibilité d'utiliser les outils.
+        En aucun cas, <strong>DevToolBox</strong> ou ses contributeurs ne pourront être tenus responsables de tout dommage (y compris, sans limitation, les dommages pour perte de données ou de profit) découlant de l'utilisation ou de l'impossibilité d'utiliser les outils.
       </p>
     </section>
 
@@ -53,6 +58,6 @@ useHead({ title: 'Conditions d\'utilisation - Dev-Tool' });
 
 <style scoped>
 .text-primary {
-  color: #18a058;
+  color: #2563eb;
 }
 </style>

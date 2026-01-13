@@ -8,7 +8,12 @@ import { useToolStore } from '@/tools/tools.store';
 
 const toolStore = useToolStore();
 
-useHead({ title: 'Dev-Tool - Handy online tools for developers' });
+useHead({ 
+  title: 'DevToolBox - La Boîte à Outils Ultime pour Développeurs',
+  meta: [
+    { name: 'description', content: 'Accédez à plus de 50 outils gratuits pour développeurs : formateurs JSON, générateurs de tokens, outils réseau, convertisseurs et plus encore. Rapide, sécurisé et open-source.' }
+  ]
+});
 const { t } = useI18n();
 
 const favoriteTools = computed(() => toolStore.favoriteTools);

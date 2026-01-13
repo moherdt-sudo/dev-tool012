@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { RouterView, useRoute } from 'vue-router';
+import { useHead } from '@vueuse/head';
 import { NGlobalStyle, NMessageProvider, NNotificationProvider, darkTheme } from 'naive-ui';
 import { darkThemeOverrides, lightThemeOverrides } from './themes';
 import { layouts } from './layouts';
@@ -18,6 +19,15 @@ syncRef(
   locale,
   useStorage('locale', locale),
 );
+
+useHead(computed(() => ({
+  link: [
+    {
+      rel: 'canonical',
+      href: `https://www.devs-tools.xyz${route.path === '/' ? '' : route.path}`,
+    },
+  ],
+})));
 </script>
 
 <template>

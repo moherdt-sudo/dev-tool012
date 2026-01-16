@@ -7,27 +7,27 @@ home:
   subtitle: La boîte à outils ultime pour les développeurs et professionnels de l’IT
   toggleMenu: Menu
   home: Accueil
-  uiLib: UI Lib
-  buyMeACoffee: Soutenez IT-Tools
+  uiLib: Bibliothèque UI
+  buyMeACoffee: Soutenir le projet
   follow:
-    title: Vous aimez it-tools ?
+    title: Vous aimez DevToolBox ?
     p1: Soutenez-nous avec une star sur
-    githubRepository: le dépôt GitHub d'IT-Tools
+    githubRepository: le dépôt GitHub de DevToolBox
     p2: ou suivez-nous sur
-    twitterXAccount: le compte X d'IT-Tools
+    twitterXAccount: le compte X de DevToolBox
     thankYou: Merci !
   nav:
     github: Dépôt GitHub
-    githubRepository: Dépôt GitHub d'IT-Tools
+    githubRepository: Dépôt GitHub de DevToolBox
     twitterX: Compte X
-    twitterXAccount: Compte X d'IT-Tools
-    about: À propos de Dev-Tool
+    twitterXAccount: Compte X de DevToolBox
+    about: À propos de DevToolBox
     aboutLabel: À propos
     darkMode: Mode sombre
     lightMode: Mode clair
     mode: Basculer le mode sombre/clair
 about:
-  content: À propos de Dev-Tool
+  content: À propos de DevToolBox
 404:
   notFound: 404 Not Found
   sorry: Désolé, cette page n'existe pas

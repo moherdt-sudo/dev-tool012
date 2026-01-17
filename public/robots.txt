@@ -1,2 +1,25 @@
+# Robots.txt pour DevToolBox
+# Site: https://www.devs-tools.xyz/
+
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /private/
+
+# Bots spécifiques
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap
+Sitemap: https://www.devs-tools.xyz/sitemap.xml
+
+# Crawl-delay pour les bots moins importants
+User-agent: *
+Crawl-delay: 1

@@ -57,8 +57,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       strategies: 'generateSW',
       manifest: {
-        name: 'IT Tools',
-        description: 'Aggregated set of useful tools for developers.',
+        name: 'DevToolBox',
+        description: 'Collection complète d\'outils en ligne pour les développeurs et professionnels IT.',
         display: 'standalone',
         lang: 'fr-FR',
         start_url: `${baseUrl}?utm_source=pwa&utm_medium=pwa`,

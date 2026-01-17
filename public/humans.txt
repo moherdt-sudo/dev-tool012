@@ -1,4 +1,8 @@
 /* TEAM */
-Developer: Corentin Thomasset
+Developer: Mohamed Marouf
+Site: https://www.devs-tools.xyz/
+Email: mohamedmarouf873@gmail.com
+
+/* THANKS */
+Original project by: Corentin Thomasset (IT-Tools)
 Site: https://github.com/CorentinTh
-Twitter: @cthmsst

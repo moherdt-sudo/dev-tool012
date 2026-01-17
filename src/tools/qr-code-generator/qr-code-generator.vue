@@ -9,7 +9,7 @@ const errorCorrectionLevel = ref<QRCodeErrorCorrectionLevel>('medium');
 
 const errorCorrectionLevels = ['low', 'medium', 'quartile', 'high'];
 
-const text = ref('https://moherdt-sudo.github.io/dev-tool012/');
+const text = ref('https://www.devs-tools.xyz/');
 const { qrcode } = useQRCode({
   text,
   color: {

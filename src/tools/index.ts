@@ -88,7 +88,24 @@ import { tool as macAddressLookup } from './mac-address-lookup';
 import { tool as xmlFormatter } from './xml-formatter';
 import { tool as yamlViewer } from './yaml-viewer';
 
+// Nouveaux outils
+import { tool as vatCalculator } from './vat-calculator';
+import { tool as profitMarginCalculator } from './profit-margin-calculator';
+import { tool as roiCalculator } from './roi-calculator';
+import { tool as discountCalculator } from './discount-calculator';
+import { tool as commissionCalculator } from './commission-calculator';
+import { tool as bmiCalculator } from './bmi-calculator';
+import { tool as ageCalculator } from './age-calculator';
+
 export const toolsByCategory: ToolCategory[] = [
+  {
+    name: 'Finance & Business',
+    components: [vatCalculator, profitMarginCalculator, roiCalculator, discountCalculator, commissionCalculator],
+  },
+  {
+    name: 'Health & Wellness',
+    components: [bmiCalculator, ageCalculator],
+  },
   {
     name: 'Crypto',
     components: [tokenGenerator, hashText, bcrypt, uuidGenerator, ulidGenerator, cypher, bip39, hmacGenerator, rsaKeyPairGenerator, passwordStrengthAnalyser, pdfSignatureChecker],

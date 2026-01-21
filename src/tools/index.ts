@@ -96,6 +96,9 @@ import { tool as discountCalculator } from './discount-calculator';
 import { tool as commissionCalculator } from './commission-calculator';
 import { tool as bmiCalculator } from './bmi-calculator';
 import { tool as ageCalculator } from './age-calculator';
+import { tool as salaryCalculator } from './salary-calculator';
+import { tool as hourlyRateCalculator } from './hourly-rate-calculator';
+import { tool as dataSizeConverter } from './data-size-converter';
 
 export const toolsByCategory: ToolCategory[] = [
   {
@@ -133,6 +136,7 @@ export const toolsByCategory: ToolCategory[] = [
       xmlToJson,
       jsonToXml,
       markdownToHtml,
+      dataSizeConverter,
     ],
   },
   {

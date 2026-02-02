@@ -1,0 +1,316 @@
+home:
+  categories:
+    newestTools: Les nouveaux outils
+    favoriteTools: Vos outils favoris
+    allTools: Tous les outils
+    favoritesDndToolTip: Faites glisser et déposez pour réordonner vos favoris
+  subtitle: La boîte à outils ultime pour les développeurs et professionnels de l’IT
+  toggleMenu: Menu
+  home: Accueil
+  uiLib: Bibliothèque UI
+  buyMeACoffee: Soutenir le projet
+  follow:
+    title: Vous aimez DevToolBox ?
+    p1: Soutenez-nous avec une star sur
+    githubRepository: le dépôt GitHub de DevToolBox
+    p2: ou suivez-nous sur
+    twitterXAccount: le compte X de DevToolBox
+    thankYou: Merci !
+  nav:
+    github: Dépôt GitHub
+    githubRepository: Dépôt GitHub de DevToolBox
+    twitterX: Compte X
+    twitterXAccount: Compte X de DevToolBox
+    about: À propos de DevToolBox
+    aboutLabel: À propos
+    darkMode: Mode sombre
+    lightMode: Mode clair
+    mode: Basculer le mode sombre/clair
+about:
+  content: À propos de DevToolBox
+404:
+  notFound: 404 Not Found
+  sorry: Désolé, cette page n'existe pas
+  maybe: Peut-être que le cache fait des siennes, essayez de forcer le rafraîchissement
+    ?
+  backHome: Retour à l'accueil
+toolCard:
+  new: Nouveau
+search:
+  label: Rechercher
+tools:
+  categories:
+    favorite-tools: Vos outils favoris
+  faq:
+    title: Foire Aux Questions (FAQ)
+    q1: Comment utiliser les outils de DevToolBox ?
+    a1: Tous nos outils sont conçus pour être intuitifs. Il vous suffit de sélectionner l'outil dont vous avez besoin dans la liste, de coller vos données dans la zone de saisie, et le résultat s'affichera instantanément.
+    q2: Les outils sont-ils sécurisés ?
+    a2: Oui, la majorité de nos outils fonctionnent exclusivement côté client. Cela signifie que vos données ne quittent jamais votre navigateur et ne sont pas envoyées à nos serveurs.
+    q3: Puis-je utiliser DevToolBox gratuitement ?
+    a3: Absolument. DevToolBox est un projet open-source et gratuit, offrant une suite complète d'outils pour les développeurs sans aucun frais.
+    q4: Comment suggérer un nouvel outil ?
+    a4: Vous pouvez nous contacter via la page de contact ou soumettre une demande sur notre dépôt GitHub. Nous sommes toujours à l'écoute des besoins de la communauté.
+  sections:
+    topTools: Top Outils du Mois
+    topToolsSubtitle: Les solutions les plus populaires pour booster votre productivité.
+    categoriesTitle: Explorer par Catégories
+    categoriesSubtitle: Trouvez l'outil parfait pour chaque étape de votre flux de travail.
+    crypto: Cryptographie
+    converter: Convertisseur
+    web: Web
+    images and videos: Images & Vidéos
+    development: Développement
+    network: Réseau
+    math: Math
+    measurement: Mesure
+    text: Texte
+    data: Données
+  token-generator:
+    title: Générateur de token
+    description: Générez instantanément des jetons aléatoires sécurisés avec des paramètres
+      personnalisables pour vos applications et tests.
+    uppercase: Majuscules (ABC...)
+    lowercase: Minuscules (abc...)
+    numbers: Chiffres (123...)
+    symbols: Symboles (!-;...)
+    button:
+      copy: Copier
+      refresh: Rafraichir
+    copied: Le token a été copié
+    length: Longueur
+    tokenPlaceholder: Le token...
+  password-strength-analyser:
+    description: Évaluez la robustesse de vos mots de passe et estimez le temps nécessaire
+      pour les craquer grâce à notre analyseur local sécurisé.
+  chronometer:
+    description: Un chronomètre en ligne précis et simple pour mesurer la durée de
+      vos tâches de développement ou de vos tests de performance.
+  percentage-calculator:
+    description: Calculez rapidement des pourcentages, des augmentations ou des réductions
+      avec cet outil mathématique intuitif.
+  svg-placeholder-generator:
+    description: Créez des images SVG de remplacement personnalisées pour vos maquettes
+      web et prototypes d'interface utilisateur.
+  json-to-csv:
+    description: Convertissez vos fichiers JSON en format CSV structuré avec détection
+      automatique des en-têtes pour une analyse de données simplifiée.
+  camera-recorder:
+    description: Enregistrez des vidéos ou prenez des photos directement depuis votre
+      navigateur pour vos démonstrations ou tests d'interface.
+  keycode-info:
+    description: Identifiez instantanément les codes de touches JavaScript et les
+      modificateurs pour faciliter la gestion des événements clavier.
+  emoji-picker:
+    description: Accédez à une bibliothèque complète d'emojis avec leurs codes Unicode
+      pour enrichir vos interfaces et contenus textuels.
+  color-converter:
+    description: Convertissez vos couleurs entre les formats HEX, RGB, HSL et noms
+      CSS pour une intégration parfaite dans vos designs.
+  bcrypt:
+    description: Sécurisez vos mots de passe en générant des hashs Bcrypt robustes
+      ou comparez-les en toute confidentialité côté client.
+  crontab-generator:
+    description: Créez et validez vos expressions cron facilement grâce à notre générateur
+      intuitif avec descriptions lisibles par l'homme.
+  http-status-codes:
+    description: Consultez la liste complète des codes d'état HTTP, leurs significations
+      et leurs cas d'utilisation pour le débogage web.
+  sql-prettify:
+    description: Formatez et embellissez vos requêtes SQL pour une meilleure lisibilité,
+      compatible avec plusieurs dialectes de bases de données.
+  benchmark-builder:
+    description: Comparez les performances d'exécution de différents blocs de code
+      JavaScript avec cet outil de benchmarking simple.
+  git-memo:
+    description: Accédez rapidement aux commandes Git essentielles grâce à cet aide-mémoire
+      complet pour la gestion de vos dépôts.
+  slugify-string:
+    description: Transformez n'importe quelle chaîne de caractères en un slug propre
+      et optimisé pour les URLs, noms de fichiers ou identifiants.
+  encryption:
+    description: Chiffrez et déchiffrez vos textes en utilisant des algorithmes standards
+      comme AES, TripleDES ou RC4 directement dans votre navigateur.
+  random-port-generator:
+    description: Générez des numéros de ports aléatoires sécurisés en dehors de la
+      plage des ports connus pour vos services réseau.
+  yaml-prettify:
+    description: Rendez vos fichiers YAML lisibles et bien structurés grâce à notre
+      outil de formatage en ligne gratuit.
+  eta-calculator:
+    description: Estimez précisément l'heure de fin et la durée restante de vos téléchargements
+      ou transferts de fichiers en cours.
+  roman-numeral-converter:
+    description: Convertissez instantanément des nombres entiers en chiffres romains
+      et vice-versa avec une précision totale.
+  hmac-generator:
+    description: Calculez des codes d'authentification de message (HMAC) sécurisés
+      en utilisant une clé secrète et vos fonctions de hachage préférées.
+  bip39-generator:
+    description: Générez des phrases de récupération BIP39 sécurisées ou récupérez
+      des mnémoniques à partir de vos clés existantes.
+  base64-file-converter:
+    description: Encodez n'importe quel fichier, image ou texte en format Base64 pour
+      une transmission de données simplifiée.
+  list-converter:
+    description: 'Transformez vos listes de données : triez, inversez, ajoutez des
+      préfixes ou transposez vos colonnes en un clic.'
+  base64-string-converter:
+    description: Encodez et décodez vos chaînes de caractères en Base64 de manière
+      rapide et sécurisée directement dans votre navigateur.
+  toml-to-yaml:
+    description: Convertissez vos fichiers de configuration TOML en format YAML tout
+      en préservant la structure de vos données.
+  math-evaluator:
+    description: Évaluez des expressions mathématiques complexes incluant des fonctions
+      trigonométriques et logarithmiques avec notre calculatrice avancée.
+  json-to-yaml-converter:
+    description: Basculez facilement entre les formats JSON et YAML grâce à notre
+      convertisseur en direct rapide et fiable.
+  url-parser:
+    description: 'Décomposez n''importe quelle URL pour analyser ses composants :
+      protocole, hôte, paramètres de requête et fragments.'
+  iban-validator-and-parser:
+    description: Vérifiez la validité des numéros IBAN et extrayez les informations
+      bancaires détaillées comme le code pays et le BBAN.
+  user-agent-parser:
+    description: Analysez les chaînes User-Agent pour identifier le navigateur, le
+      système d'exploitation, le moteur et le type d'appareil utilisé.
+  numeronym-generator:
+    description: Générez des abréviations numériques (numéronymes) pour vos termes
+      techniques longs de manière automatisée.
+  case-converter:
+    description: 'Changez instantanément la casse de vos textes : camelCase, snake_case,
+      PascalCase, kebab-case et bien d''autres.'
+  html-entities:
+    description: Échappez ou déséchappez vos entités HTML pour sécuriser l'affichage
+      de caractères spéciaux dans vos pages web.
+  json-prettify:
+    description: Embellissez vos fichiers JSON bruts pour les rendre lisibles et faciles
+      à déboguer grâce à notre formateur intelligent.
+  docker-run-to-docker-compose-converter:
+    description: Transformez vos commandes 'docker run' complexes en fichiers docker-compose.yml
+      prêts à l'emploi.
+  mac-address-lookup:
+    description: Identifiez le fabricant et le vendeur d'un appareil réseau à partir
+      de son adresse MAC grâce à notre base de données à jour.
+  mime-types:
+    description: Trouvez rapidement les extensions de fichiers correspondant aux types
+      MIME et inversement pour vos développements web.
+  toml-to-json:
+    description: Convertissez vos fichiers TOML en JSON de manière fluide pour une
+      meilleure compatibilité avec vos APIs et outils web.
+  lorem-ipsum-generator:
+    description: Générez du texte de remplissage Lorem Ipsum personnalisé pour vos
+      maquettes et designs d'interface utilisateur.
+  qrcode-generator:
+    description: Créez et téléchargez des codes QR personnalisés pour vos URLs ou
+      textes avec des couleurs de fond et de premier plan éditables.
+  wifi-qrcode-generator:
+    description: Générez des codes QR de connexion WiFi pour permettre à vos invités
+      de se connecter instantanément à votre réseau sans saisir de mot de passe.
+  xml-formatter:
+    description: Formatez et embellissez vos fichiers XML pour une structure claire
+      et une lecture facilitée lors de vos développements.
+  temperature-converter:
+    description: Convertissez vos températures entre Celsius, Fahrenheit, Kelvin et
+      d'autres unités scientifiques avec précision.
+  chmod-calculator:
+    description: Calculez vos permissions Linux (chmod) en format numérique ou symbolique
+      grâce à notre interface interactive simple.
+  rsa-key-pair-generator:
+    description: Générez des paires de clés RSA publiques et privées sécurisées au
+      format PEM pour vos besoins de chiffrement et d'authentification.
+  html-wysiwyg-editor:
+    description: Éditez votre contenu HTML visuellement et récupérez instantanément
+      le code source propre pour vos sites web.
+  yaml-to-toml:
+    description: Basculez vos configurations du format YAML vers TOML en un instant
+      tout en conservant l'intégrité de vos données.
+  mac-address-generator:
+    description: Générez des adresses MAC aléatoires ou personnalisées avec le préfixe
+      de votre choix pour vos tests réseau.
+  json-diff:
+    description: Comparez deux objets JSON pour identifier rapidement les différences
+      de structure ou de valeurs entre vos fichiers.
+  jwt-parser:
+    description: Décodez et analysez vos JSON Web Tokens (JWT) pour visualiser les
+      en-têtes, les charges utiles et vérifier les signatures.
+  date-converter:
+    description: Transformez vos dates et heures entre différents formats (ISO, Timestamp,
+      UTC) pour une gestion temporelle simplifiée.
+  phone-parser-and-formatter:
+    description: Validez et formatez des numéros de téléphone internationaux tout
+      en extrayant des informations sur le pays et le type de ligne.
+  ipv4-subnet-calculator:
+    description: Calculez vos sous-réseaux IPv4, masques CIDR et plages d'adresses
+      IP pour une planification réseau efficace.
+  og-meta-generator:
+    description: Générez des balises meta Open Graph et réseaux sociaux pour optimiser
+      l'affichage de votre site lors des partages en ligne.
+  ipv6-ula-generator:
+    description: Créez des adresses IPv6 locales uniques (ULA) non routables pour
+      vos réseaux privés conformément aux standards RFC4193.
+  hash-text:
+    description: Générez des empreintes numériques (hash) pour vos textes en utilisant
+      MD5, SHA-256, SHA-512 et bien d'autres algorithmes.
+  json-to-toml:
+    description: Convertissez vos structures de données JSON vers le format TOML pour
+      vos fichiers de configuration modernes.
+  device-information:
+    description: 'Consultez les détails techniques de votre appareil actuel : résolution
+      d''écran, ratio de pixels, user-agent et plus encore.'
+  pdf-signature-checker:
+    description: Vérifiez l'intégrité et les signatures numériques de vos fichiers
+      PDF pour détecter toute modification non autorisée.
+  json-minify:
+    description: Compressez vos fichiers JSON en supprimant les espaces inutiles pour
+      optimiser le stockage et les transferts de données.
+  ulid-generator:
+    description: Générez des identifiants ULID aléatoires, triables par ordre lexicographique
+      et universellement uniques pour vos bases de données.
+  string-obfuscator:
+    description: Masquez partiellement vos chaînes de caractères sensibles pour permettre
+      leur identification sans compromettre la sécurité.
+  base-converter:
+    description: 'Convertissez des nombres entre différentes bases numériques : décimal,
+      hexadécimal, binaire, octal et Base64.'
+  yaml-to-json-converter:
+    description: Transformez vos fichiers YAML en JSON instantanément grâce à notre
+      convertisseur en ligne fluide et précis.
+  uuid-generator:
+    description: Générez des identifiants UUID (v4) uniques pour vos systèmes informatiques
+      avec une probabilité de collision quasi nulle.
+  ipv4-address-converter:
+    description: Convertissez vos adresses IP entre les formats décimal, binaire,
+      hexadécimal et même IPv6.
+  text-statistics:
+    description: Obtenez un rapport complet sur la structure de votre texte, incluant
+      le temps de lecture estimé et la densité des caractères.
+  text-to-nato-alphabet:
+    description: Traduisez vos textes en alphabet phonétique de l'OTAN pour faciliter
+      les transmissions orales claires et sans erreur.
+  basic-auth-generator:
+    description: Générez des en-têtes d'authentification Basic Base64 à partir d'un
+      nom d'utilisateur et d'un mot de passe pour vos tests d'API.
+  text-to-unicode:
+    description: Convertissez vos textes en codes Unicode et inversement pour une
+      gestion précise des caractères spéciaux.
+  ipv4-range-expander:
+    description: Calculez les sous-réseaux valides et la notation CIDR à partir d'une
+      plage d'adresses IPv4 de début et de fin.
+  text-diff:
+    description: Comparez deux textes côte à côte pour visualiser instantanément les
+      ajouts, suppressions et modifications entre les versions.
+  otp-generator:
+    description: Générez et validez des codes OTP (One-Time Password) basés sur le
+      temps pour renforcer la sécurité de vos authentifications.
+  url-encoder:
+    description: Encodez ou décodez vos chaînes de caractères au format URL (percent-encoding)
+      pour une transmission web sécurisée.
+  text-to-binary:
+    description: Convertissez vos textes en leur représentation binaire ASCII et inversement
+      pour vos besoins techniques ou éducatifs.
+  ascii-text-drawer:
+    description: Créez des bannières et des titres artistiques en texte ASCII pour
+      vos fichiers README, scripts ou en-têtes de code.

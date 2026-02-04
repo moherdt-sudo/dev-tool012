@@ -9,5 +9,6 @@ export const tool = defineTool({
   keywords: ['salaire', 'brut', 'net', 'paie', 'charges', 'travail', 'finance'],
   component: () => import('./salary-calculator.vue'),
   icon: Cash,
+  category: 'Calculatrice',
   createdAt: new Date('2026-01-18'),
 });

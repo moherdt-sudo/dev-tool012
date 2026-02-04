@@ -60,6 +60,8 @@ const tools = computed<ToolCategory[]>(() => [
 
         <div class="footer">
           <div class="footer-links">
+            <RouterLink to="/calculators">Calculatrices</RouterLink>
+            <span class="separator">•</span>
             <RouterLink to="/about">À propos</RouterLink>
             <span class="separator">•</span>
             <RouterLink to="/privacy-policy">Confidentialité</RouterLink>

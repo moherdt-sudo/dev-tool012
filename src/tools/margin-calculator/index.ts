@@ -9,5 +9,6 @@ export const tool = defineTool({
   keywords: ['marge', 'profit', 'prix', 'vente', 'coût', 'finance', 'business'],
   component: () => import('./margin-calculator.vue'),
   icon: ChartBar,
+  category: 'Calculatrice',
   createdAt: new Date('2026-01-18'),
 });

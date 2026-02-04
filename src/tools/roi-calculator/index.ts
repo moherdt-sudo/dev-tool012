@@ -9,5 +9,6 @@ export const tool = defineTool({
   keywords: ['roi', 'investissement', 'profit', 'gain', 'finance', 'business', 'rendement'],
   component: () => import('./roi-calculator.vue'),
   icon: TrendingUp,
+  category: 'Calculatrice',
   createdAt: new Date('2026-01-18'),
 });

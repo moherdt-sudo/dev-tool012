@@ -9,5 +9,6 @@ export const tool = defineTool({
   keywords: ['remise', 'solde', 'discount', 'prix', 'économie', 'achat', 'shopping'],
   component: () => import('./discount-calculator.vue'),
   icon: Tag,
+  category: 'Calculatrice',
   createdAt: new Date('2026-01-18'),
 });

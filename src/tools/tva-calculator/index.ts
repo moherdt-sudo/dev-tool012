@@ -9,5 +9,6 @@ export const tool = defineTool({
   keywords: ['tva', 'taxe', 'ht', 'ttc', 'calcul', 'finance', 'prix'],
   component: () => import('./tva-calculator.vue'),
   icon: Calculator,
+  category: 'Calculatrice',
   createdAt: new Date('2026-01-18'),
 });

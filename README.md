@@ -8,6 +8,13 @@ Une collection complète d'outils en ligne indispensables pour les développeurs
 
 **DevToolBox** est une suite d'outils web performants, gratuits et open-source, conçue pour simplifier les tâches quotidiennes des développeurs. Tous les outils fonctionnent côté client pour garantir une confidentialité maximale.
 
+## Monétisation & Accès
+
+Pour soutenir le développement de **DevToolBox**, nous utilisons un système de tentatives basées sur la publicité :
+- Chaque utilisateur commence avec 0 tentative.
+- Pour débloquer **5 tentatives**, cliquez sur le bouton "DÉBLOQUER MAINTENANT" (redirige vers un Direct Link Monetag).
+- Une fois les tentatives épuisées, il suffit de regarder une nouvelle publicité pour recharger votre compteur.
+
 ## Fonctionnalités
 
 - **Formatage & Minification** : JSON, XML, SQL, TOML, YAML.

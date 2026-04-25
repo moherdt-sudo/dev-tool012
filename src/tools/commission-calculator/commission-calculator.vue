@@ -6,13 +6,6 @@ const guard = ref();
 const salesAmount = ref<number>();
 const commissionRate = ref<number>(5);
 
-// Watch for calculation results to use a try
-watch(salesAmount, (newValue) => {
-  if (newValue !== undefined && guard.value) {
-    guard.value.useTry();
-  }
-});
-
 const commissionAmount = computed(() => {
   if (salesAmount.value !== undefined && commissionRate.value !== undefined) {
     return Number((salesAmount.value * (commissionRate.value / 100)).toFixed(2));
@@ -34,9 +27,7 @@ const remainingAmount = computed(() => {
       <c-card mb-3>
         <div mb-3 font-600>Calcul de Commission</div>
         
-        <MonetizationGuard ref="guard" />
-
-        <div v-if="guard?.remainingTries > 0" flex flex-col gap-4>
+        <div flex flex-col gap-4>
           <div grid grid-cols-2 gap-4>
             <div>
               <div mb-1 text-sm text-neutral-500>Montant des ventes</div>
@@ -57,6 +48,11 @@ const remainingAmount = computed(() => {
               <span font-700>Reste après commission :</span>
               <span font-700 text-lg text-blue-700>{{ remainingAmount }} €</span>
             </div>
+
+            <!-- Monetized Copy Button -->
+            <MonetizationGuard 
+              :text-to-copy="`Montant commission: ${commissionAmount}€, Reste: ${remainingAmount}€`" 
+            />
           </div>
         </div>
       </c-card>

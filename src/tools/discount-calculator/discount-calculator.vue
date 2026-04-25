@@ -6,13 +6,6 @@ const guard = ref();
 const originalPrice = ref<number>();
 const discountPercent = ref<number>(10);
 
-// Watch for calculation results to use a try
-watch(originalPrice, (newValue) => {
-  if (newValue !== undefined && guard.value) {
-    guard.value.useTry();
-  }
-});
-
 const savings = computed(() => {
   if (originalPrice.value !== undefined && discountPercent.value !== undefined) {
     return Number((originalPrice.value * (discountPercent.value / 100)).toFixed(2));
@@ -34,9 +27,7 @@ const finalPrice = computed(() => {
       <c-card mb-3>
         <div mb-3 font-600>Calcul de Remise / Solde</div>
         
-        <MonetizationGuard ref="guard" />
-
-        <div v-if="guard?.remainingTries > 0" flex flex-col gap-4>
+        <div flex flex-col gap-4>
           <div grid grid-cols-2 gap-4>
             <div>
               <div mb-1 text-sm text-neutral-500>Prix initial</div>
@@ -57,6 +48,11 @@ const finalPrice = computed(() => {
               <span font-700>Prix final :</span>
               <span font-700 text-lg text-orange-700>{{ finalPrice }} €</span>
             </div>
+
+            <!-- Monetized Copy Button -->
+            <MonetizationGuard 
+              :text-to-copy="`Prix initial: ${originalPrice}€, Remise: ${discountPercent}%, Économie: ${savings}€, Prix final: ${finalPrice}€`" 
+            />
           </div>
         </div>
       </c-card>

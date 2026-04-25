@@ -1,35 +1,44 @@
 <script setup lang="ts">
-import { ref, onMounted, watch } from 'vue';
-import { IconLock, IconAd } from '@tabler/icons-vue';
+import { ref, onMounted } from 'vue';
+import { IconLock, IconAd, IconCopy, IconCheck } from '@tabler/icons-vue';
+
+const props = defineProps<{
+  textToCopy?: string;
+}>();
 
 const MAX_TRIES = 5;
 const MONETAG_LINK = 'https://omg10.com/4/10320637';
 
 const remainingTries = ref(0);
+const isCopied = ref(false);
 
 const loadTries = () => {
   const stored = localStorage.getItem('monetag_tries');
   if (stored !== null) {
     remainingTries.value = parseInt(stored, 10);
   } else {
-    // Initial state: 1 free try or 0? Let's give 0 to force first ad
     remainingTries.value = 0;
   }
 };
 
-const useTry = () => {
+const handleCopy = async () => {
   if (remainingTries.value > 0) {
-    remainingTries.value--;
-    localStorage.setItem('monetag_tries', remainingTries.value.toString());
-    return true;
+    if (props.textToCopy) {
+      try {
+        await navigator.clipboard.writeText(props.textToCopy);
+        isCopied.value = true;
+        remainingTries.value--;
+        localStorage.setItem('monetag_tries', remainingTries.value.toString());
+        setTimeout(() => { isCopied.value = false; }, 2000);
+      } catch (err) {
+        console.error('Failed to copy: ', err);
+      }
+    }
   }
-  return false;
 };
 
 const unlockTries = () => {
-  // We open the ad link in a new tab
   window.open(MONETAG_LINK, '_blank');
-  // Then we grant the tries
   remainingTries.value = MAX_TRIES;
   localStorage.setItem('monetag_tries', MAX_TRIES.toString());
 };
@@ -38,55 +47,58 @@ onMounted(() => {
   loadTries();
 });
 
-// Expose the state and methods
 defineExpose({
   remainingTries,
-  useTry,
   unlockTries
 });
 </script>
 
 <template>
-  <div v-if="remainingTries <= 0" class="monetization-overlay p-6 bg-white border-2 border-dashed border-blue-400 rounded-xl text-center shadow-lg my-4">
-    <div class="mb-4 flex justify-center">
-      <div class="p-3 bg-blue-100 rounded-full">
-        <IconLock size="32" class="text-blue-600" />
-      </div>
+  <div class="monetization-container mt-4">
+    <!-- Counter Display -->
+    <div v-if="remainingTries > 0" class="flex items-center justify-between p-2 bg-green-50 border border-green-100 rounded-lg mb-3">
+      <span class="text-xs font-medium text-green-700 flex items-center gap-1">
+        <div class="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></div>
+        {{ remainingTries }} copies restantes
+      </span>
+      <button @click="unlockTries" class="text-[10px] text-blue-600 hover:underline font-bold uppercase tracking-tighter">
+        + Recharger
+      </button>
     </div>
-    <h3 class="text-xl font-bold text-neutral-800 mb-2">Contenu Verrouillé</h3>
-    <p class="text-neutral-600 mb-6">
-      Pour obtenir vos résultats et bénéficier de <b>5 tentatives gratuites</b>, veuillez cliquer sur le bouton ci-dessous pour regarder une publicité.
-    </p>
-    <button 
-      @click="unlockTries"
-      class="unlock-button flex flex-col items-center justify-center gap-1 w-full py-4 px-6 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800 text-white font-bold rounded-xl transition-all transform hover:scale-102 active:scale-95 shadow-lg"
-    >
-      <div class="flex items-center gap-2">
-        <IconAd size="24" class="animate-bounce" />
-        <span class="text-lg">CLIQUEZ POUR DÉBLOQUER (5 ESSAIS)</span>
-      </div>
-      <span class="text-xs font-normal opacity-80">Ouverture du lien publicitaire requise</span>
-    </button>
-    <p class="mt-4 text-xs text-neutral-400 italic">
-      Cela nous aide à maintenir cet outil gratuit. Merci de votre soutien !
-    </p>
-  </div>
-  <div v-else class="tries-counter mb-4 flex items-center justify-between p-3 bg-green-50 border border-green-200 rounded-lg">
-    <div class="flex items-center gap-2">
-      <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-      <span class="text-sm font-medium text-green-700">Tentatives restantes : <b>{{ remainingTries }}</b></span>
+
+    <!-- Action Button -->
+    <div v-if="remainingTries > 0">
+      <button 
+        @click="handleCopy"
+        class="flex items-center justify-center gap-2 w-full py-2.5 px-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg transition-all shadow-sm active:scale-95"
+      >
+        <component :is="isCopied ? IconCheck : IconCopy" size="18" />
+        {{ isCopied ? 'COPIÉ !' : 'COPIER LE RÉSULTAT' }}
+      </button>
     </div>
-    <button @click="unlockTries" class="text-xs text-blue-600 hover:underline font-medium">
-      Recharger (Ad)
-    </button>
+
+    <!-- Unlock Section -->
+    <div v-else class="p-4 bg-neutral-50 border-2 border-dashed border-blue-300 rounded-xl text-center shadow-inner">
+      <div class="mb-2 flex justify-center">
+        <IconLock size="24" class="text-blue-500 opacity-50" />
+      </div>
+      <p class="text-sm text-neutral-600 mb-3 font-medium">
+        La copie est verrouillée. Regardez une pub pour débloquer <b>5 copies</b>.
+      </p>
+      <button 
+        @click="unlockTries"
+        class="unlock-button flex flex-col items-center justify-center gap-0.5 w-full py-3 px-4 bg-gradient-to-r from-blue-600 to-indigo-700 text-white font-bold rounded-lg transition-all transform hover:scale-[1.02] active:scale-95 shadow-md"
+      >
+        <div class="flex items-center gap-2">
+          <IconAd size="20" class="animate-bounce" />
+          <span>DÉBLOQUER LA COPIE</span>
+        </div>
+      </button>
+    </div>
   </div>
 </template>
 
 <style scoped>
-.monetization-overlay {
-  animation: fadeIn 0.5s ease-out;
-}
-
 .unlock-button {
   position: relative;
   overflow: hidden;
@@ -107,10 +119,5 @@ defineExpose({
 
 .unlock-button:hover::after {
   left: 120%;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
 }
 </style>

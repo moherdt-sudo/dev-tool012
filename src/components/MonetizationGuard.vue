@@ -59,10 +59,13 @@ defineExpose({
     </p>
     <button 
       @click="unlockTries"
-      class="flex items-center justify-center gap-2 w-full py-3 px-6 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg transition-all transform hover:scale-105 shadow-md"
+      class="unlock-button flex flex-col items-center justify-center gap-1 w-full py-4 px-6 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800 text-white font-bold rounded-xl transition-all transform hover:scale-102 active:scale-95 shadow-lg"
     >
-      <IconAd size="20" />
-      DÉBLOQUER MAINTENANT
+      <div class="flex items-center gap-2">
+        <IconAd size="24" class="animate-bounce" />
+        <span class="text-lg">CLIQUEZ POUR DÉBLOQUER (5 ESSAIS)</span>
+      </div>
+      <span class="text-xs font-normal opacity-80">Ouverture du lien publicitaire requise</span>
     </button>
     <p class="mt-4 text-xs text-neutral-400 italic">
       Cela nous aide à maintenir cet outil gratuit. Merci de votre soutien !
@@ -82,6 +85,28 @@ defineExpose({
 <style scoped>
 .monetization-overlay {
   animation: fadeIn 0.5s ease-out;
+}
+
+.unlock-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.unlock-button::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.1);
+  transform: rotate(45deg);
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.unlock-button:hover::after {
+  left: 120%;
 }
 
 @keyframes fadeIn {
